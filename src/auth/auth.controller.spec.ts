@@ -18,7 +18,7 @@ describe('AuthController', () => {
   };
 
   const mockAuthGuard = {
-    canActivate: jest.fn().mockReturnValue(true), // always allow
+    canActivate: jest.fn().mockReturnValue(true),
   };
 
   beforeEach(async () => {
