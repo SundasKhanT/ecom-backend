@@ -23,6 +23,7 @@
   "dependencies": {
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
+    "@nestjs/jwt": "^11.0.0",
     "@nestjs/platform-express": "^11.0.1",
     "@nestjs/testing": "^11.1.5",
     "@prisma/client": "^6.13.0",
@@ -82,8 +83,8 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node",
     "moduleNameMapper": {
-    "^src/(.*)$": "<rootDir>/$1"
-  }
+      "^src/(.*)$": "<rootDir>/$1"
+    }
   },
   "lint-staged": {
     "*.{ts,js,json}": [
